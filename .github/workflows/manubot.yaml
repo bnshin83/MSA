@@ -25,7 +25,7 @@ on:
       BUILD_LATEX:
         type: boolean
         description: generate LaTeX output
-        default: false
+        default: true
       SPELLCHECK:
         type: boolean
         description: Check spelling
@@ -45,6 +45,8 @@ jobs:
       # Set SPELLCHECK to true/false for whether to check spelling in this action.
       # For workflow dispatch jobs, this SPELLCHECK setting will be overridden by the user input.
       SPELLCHECK: true
+      # Enable LaTeX output generation
+      BUILD_LATEX: true
     defaults:
       run:
         shell: bash --login {0}

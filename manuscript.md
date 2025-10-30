@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2025-10-30" />
   <meta name="citation_publication_date" content="2025-10-30" />
   <meta property="article:published_time" content="2025-10-30" />
-  <meta name="dc.modified" content="2025-10-30T13:56:27+00:00" />
-  <meta property="article:modified_time" content="2025-10-30T13:56:27+00:00" />
+  <meta name="dc.modified" content="2025-10-30T14:00:50+00:00" />
+  <meta property="article:modified_time" content="2025-10-30T14:00:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://bnshin83.github.io/MSA/" />
   <meta name="citation_pdf_url" content="https://bnshin83.github.io/MSA/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://bnshin83.github.io/MSA/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://bnshin83.github.io/MSA/v/3ef501ff85ecf89d3c119f93ab81ac80eb59f065/" />
-  <meta name="manubot_html_url_versioned" content="https://bnshin83.github.io/MSA/v/3ef501ff85ecf89d3c119f93ab81ac80eb59f065/" />
-  <meta name="manubot_pdf_url_versioned" content="https://bnshin83.github.io/MSA/v/3ef501ff85ecf89d3c119f93ab81ac80eb59f065/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://bnshin83.github.io/MSA/v/24cf3587b72e9643bcbd11ad4920de5873b48b36/" />
+  <meta name="manubot_html_url_versioned" content="https://bnshin83.github.io/MSA/v/24cf3587b72e9643bcbd11ad4920de5873b48b36/" />
+  <meta name="manubot_pdf_url_versioned" content="https://bnshin83.github.io/MSA/v/24cf3587b72e9643bcbd11ad4920de5873b48b36/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://bnshin83.github.io/MSA/v/3ef501ff85ecf89d3c119f93ab81ac80eb59f065/))
+([permalink](https://bnshin83.github.io/MSA/v/24cf3587b72e9643bcbd11ad4920de5873b48b36/))
 was automatically generated
-from [bnshin83/MSA@3ef501f](https://github.com/bnshin83/MSA/tree/3ef501ff85ecf89d3c119f93ab81ac80eb59f065)
+from [bnshin83/MSA@24cf358](https://github.com/bnshin83/MSA/tree/24cf3587b72e9643bcbd11ad4920de5873b48b36)
 on October 30, 2025.
 </em></small>
 

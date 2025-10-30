@@ -2,9 +2,9 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/rootstock/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/rootstock/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/manubot/rootstock/workflows/Manubot/badge.svg)](https://github.com/manubot/rootstock/actions)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://bnshin83.github.io/MSA/v/latest/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://bnshin83.github.io/MSA/v/latest/manuscript.pdf)
+[![GitHub Actions Status](https://github.com/bnshin83/MSA/workflows/Manubot/badge.svg)](https://github.com/bnshin83/MSA/actions)
 
 ## Manuscript description
 
@@ -77,11 +77,11 @@ Whenever a pull request is opened, CI (continuous integration) will test whether
 The build process aims to detect common errors, such as invalid citations.
 If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
 
-When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
+When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/bnshin83/MSA/tree/gh-pages) and [`output`](https://github.com/bnshin83/MSA/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
-+ **HTML manuscript** at https://manubot.github.io/rootstock/
-+ **PDF manuscript** at https://manubot.github.io/rootstock/manuscript.pdf
++ **HTML manuscript** at https://bnshin83.github.io/MSA/v/latest/
++ **PDF manuscript** at https://bnshin83.github.io/MSA/v/latest/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
@@ -96,7 +96,7 @@ We encourage users to openly license their manuscripts, which is the default as 
 [![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
-Please attribute by linking to https://github.com/manubot/rootstock.
+Please attribute by linking to https://github.com/bnshin83/MSA.
 
 Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
 All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:

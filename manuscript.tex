@@ -1,0 +1,510 @@
+This manuscript
+(\href{https://bnshin83.github.io/MSA/v/3ef501ff85ecf89d3c119f93ab81ac80eb59f065/}{permalink})
+was automatically generated
+from \href{https://github.com/bnshin83/MSA/tree/3ef501ff85ecf89d3c119f93ab81ac80eb59f065}{bnshin83/MSA@3ef501f}
+on October 30, 2025.
+
+\hypertarget{authors}{%
+\subsection{Authors}\label{authors}}
+
+\begin{itemize}
+\item
+  \textbf{John Doe}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/orcid.svg}
+  \href{https://orcid.org/XXXX-XXXX-XXXX-XXXX}{XXXX-XXXX-XXXX-XXXX}
+  · \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/johndoe}{johndoe}
+  · \includegraphics[width=0.16667in,height=0.16667in]{images/twitter.svg}
+  \href{https://twitter.com/johndoe}{johndoe}
+  · \includegraphics[width=0.16667in,height=0.16667in]{images/mastodon.svg}
+  \href{https://mastodon.social/@johndoe}{@johndoe@mastodon.social}
+  Department of Something, University of Whatever
+  · Funded by Grant XXXXXXXX
+\item
+  \textbf{Jane Roe}
+  \textsuperscript{\protect\hyperlink{correspondence}{✉}}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/orcid.svg}
+  \href{https://orcid.org/XXXX-XXXX-XXXX-XXXX}{XXXX-XXXX-XXXX-XXXX}
+  · \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/janeroe}{janeroe}
+  Department of Something, University of Whatever; Department of Whatever, University of Something
+\end{itemize}
+
+\leavevmode\vadjust pre{\hypertarget{correspondence}{}}%
+✉ --- Correspondence possible via \href{https://github.com/bnshin83/MSA/issues}{GitHub Issues}
+or email to
+Jane Roe \textless jane.roe@whatever.edu\textgreater.
+
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
+
+This manuscript is a template (aka ``rootstock'') for \href{https://manubot.org/}{Manubot}, a tool for writing scholarly manuscripts.
+Use this template as a starting point for your manuscript.
+
+The rest of this document is a full list of formatting elements/features supported by Manubot.
+Compare the input (\texttt{.md} files in the \texttt{/content} directory) to the output you see below.
+
+\hypertarget{basic-formatting}{%
+\subsection{Basic formatting}\label{basic-formatting}}
+
+\textbf{Bold} \textbf{text}
+
+{Semi-bold text}
+
+{Centered text}
+
+{Right-aligned text}
+
+\emph{Italic} \emph{text}
+
+Combined \emph{italics and \textbf{bold}}
+
+\sout{Strikethrough}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ordered list item
+\item
+  Ordered list item
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Sub-item
+  \item
+    Sub-item
+
+    \begin{enumerate}
+    \def\labelenumiii{\roman{enumiii}.}
+    \tightlist
+    \item
+      Sub-sub-item
+    \end{enumerate}
+  \end{enumerate}
+\item
+  Ordered list item
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Sub-item
+  \end{enumerate}
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  List item
+\item
+  List item
+\item
+  List item
+\end{itemize}
+
+subscript: H\textsubscript{2}O is a liquid
+
+superscript: 2\textsuperscript{10} is 1024.
+
+\href{https://www.google.com/search?q=superscript+generator}{unicode superscripts}⁰¹²³⁴⁵⁶⁷⁸⁹
+
+\href{https://www.google.com/search?q=superscript+generator}{unicode subscripts}₀₁₂₃₄₅₆₇₈₉
+
+A long paragraph of text.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Putting each sentence on its own line has numerous benefits with regard to \href{https://asciidoctor.org/docs/asciidoc-recommended-practices/\#one-sentence-per-line}{editing} and \href{https://rhodesmill.org/brandon/2012/one-sentence-per-line/}{version control}.
+
+Line break without starting a new paragraph by putting\\
+two spaces at end of line.
+
+\hypertarget{document-organization}{%
+\subsection{Document organization}\label{document-organization}}
+
+Document section headings:
+
+\hypertarget{heading-1}{%
+\section{Heading 1}\label{heading-1}}
+
+\hypertarget{heading-2}{%
+\subsection{Heading 2}\label{heading-2}}
+
+\hypertarget{heading-3}{%
+\subsubsection{Heading 3}\label{heading-3}}
+
+\hypertarget{heading-4}{%
+\paragraph{Heading 4}\label{heading-4}}
+
+\hypertarget{heading-5}{%
+\subparagraph{Heading 5}\label{heading-5}}
+
+Heading 6
+
+\hypertarget{a-heading-centered-on-its-own-printed-page}{%
+\subsubsection{A heading centered on its own printed page}\label{a-heading-centered-on-its-own-printed-page}}
+
+Horizontal rule:
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\texttt{Heading\ 1}'s are recommended to be reserved for the title of the manuscript.
+
+\texttt{Heading\ 2}'s are recommended for broad sections such as \emph{Abstract}, \emph{Methods}, \emph{Conclusion}, etc.
+
+\texttt{Heading\ 3}'s and \texttt{Heading\ 4}'s are recommended for sub-sections.
+
+\hypertarget{links}{%
+\subsection{Links}\label{links}}
+
+Bare URL link: \url{https://manubot.org}
+
+\href{https://manubot.org}{Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah}
+
+\href{https://manubot.org}{Link with text}
+
+\href{https://manubot.org}{Link with hover text}
+
+\href{https://manubot.org}{Link by reference}
+
+\hypertarget{citations}{%
+\subsection{Citations}\label{citations}}
+
+Citation by DOI {[}\protect\hyperlink{ref-IhliSZDo}{1}{]}.
+
+Citation by PubMed Central ID {[}\protect\hyperlink{ref-mSMVRkoc}{2}{]}.
+
+Citation by PubMed ID {[}\protect\hyperlink{ref-126Wi5Us4}{3}{]}.
+
+Citation by Wikidata ID {[}\protect\hyperlink{ref-QhC8yJ7V}{4}{]}.
+
+Citation by ISBN {[}\protect\hyperlink{ref-zBPP9YKu}{5}{]}.
+
+Citation by URL {[}\protect\hyperlink{ref-1GGGHdsew}{6}{]}.
+
+Citation by alias {[}\protect\hyperlink{ref-PZMP42Ak}{7}{]}.
+
+Multiple citations can be put inside the same set of brackets {[}\protect\hyperlink{ref-IhliSZDo}{1},\protect\hyperlink{ref-zBPP9YKu}{5},\protect\hyperlink{ref-PZMP42Ak}{7}{]}.
+Manubot plugins provide easier, more convenient visualization of and navigation between citations {[}\protect\hyperlink{ref-mSMVRkoc}{2},\protect\hyperlink{ref-126Wi5Us4}{3},\protect\hyperlink{ref-PZMP42Ak}{7},\protect\hyperlink{ref-YuJbg3zO}{8}{]}.
+
+Citation tags (i.e.~aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
+
+\hypertarget{referencing-figures-tables-equations}{%
+\subsection{Referencing figures, tables, equations}\label{referencing-figures-tables-equations}}
+
+Figure \ref{fig:square-image}
+
+Figure \ref{fig:wide-image}
+
+Figure \ref{fig:tall-image}
+
+Figure \ref{fig:vector-image}
+
+Table \ref{tbl:bowling-scores}
+
+Equation \ref{eq:regular-equation}
+
+Equation \ref{eq:long-equation}
+
+\hypertarget{quotes-and-code}{%
+\subsection{Quotes and code}\label{quotes-and-code}}
+
+\begin{quote}
+Quoted text
+\end{quote}
+
+\begin{quote}
+Quoted block of text
+
+Two roads diverged in a wood, and I---\\
+I took the one less traveled by,\\
+And that has made all the difference.
+\end{quote}
+
+Code \texttt{in\ the\ middle} of normal text, aka \texttt{inline\ code}.
+
+Code block with Python syntax highlighting:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{from}\NormalTok{ manubot.cite.doi }\ImportTok{import}\NormalTok{ expand\_short\_doi}
+
+\KeywordTok{def}\NormalTok{ test\_expand\_short\_doi():}
+\NormalTok{    doi }\OperatorTok{=}\NormalTok{ expand\_short\_doi(}\StringTok{"10/c3bp"}\NormalTok{)}
+    \CommentTok{\# a string too long to fit within page:}
+    \ControlFlowTok{assert}\NormalTok{ doi }\OperatorTok{==} \StringTok{"10.25313/2524{-}2695{-}2018{-}3{-}vliyanie{-}enhansera{-}copia{-}i{-}insulyatora{-}gypsy{-}na{-}sintez{-}ernk{-}modifikatsii{-}hromatina{-}i{-}svyazyvanie{-}insulyatornyh{-}belkov{-}vtransfetsirovannyh{-}geneticheskih{-}konstruktsiyah"}
+\end{Highlighting}
+\end{Shaded}
+
+Code block with no syntax highlighting:
+
+\begin{verbatim}
+Exporting HTML manuscript
+Exporting DOCX manuscript
+Exporting PDF manuscript
+\end{verbatim}
+
+\hypertarget{figures}{%
+\subsection{Figures}\label{figures}}
+
+\begin{figure}
+\hypertarget{fig:square-image}{%
+\centering
+\includegraphics{https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png}
+\caption{\textbf{A square image at actual size and with a bottom caption.}
+Loaded from the latest version of image on GitHub.}\label{fig:square-image}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:wide-image}{%
+\centering
+\includegraphics{https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png}
+\caption{\textbf{An image too wide to fit within page at full size.}
+Loaded from a specific (hashed) version of the image on GitHub.}\label{fig:wide-image}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:tall-image}{%
+\centering
+\includegraphics[width=\textwidth,height=3in]{https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png}
+\caption{\textbf{A tall image with a specified height.}
+Loaded from a specific (hashed) version of the image on GitHub.}\label{fig:tall-image}
+}
+\end{figure}
+
+\begin{figure}
+\hypertarget{fig:vector-image}{%
+\centering
+\includegraphics[width=\textwidth,height=2.5in]{https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true}
+\caption{\textbf{A vector \texttt{.svg} image loaded from GitHub.}
+The parameter \texttt{sanitize=true} is necessary to properly load SVGs hosted via GitHub URLs.
+White background specified to serve as a backdrop for transparent sections of the image.
+Note that if you want to export to Word (\texttt{.docx}), you need to download the image and reference it locally (e.g.~\texttt{content/images/vector.svg}) instead of using a URL.}\label{fig:vector-image}
+}
+\end{figure}
+
+\hypertarget{tables}{%
+\subsection{Tables}\label{tables}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2308}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1923}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1923}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1923}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1923}}@{}}
+\caption{A table with a top caption and specified relative column widths.
+\label{tbl:bowling-scores}}\label{tbl:bowling-scores}\tabularnewline
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\emph{Bowling Scores}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Jane
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+John
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Alice
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Bob
+\end{minipage} \\
+\midrule()
+\endfirsthead
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\emph{Bowling Scores}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Jane
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+John
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Alice
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Bob
+\end{minipage} \\
+\midrule()
+\endhead
+Game 1 & 150 & 187 & 210 & 105 \\
+Game 2 & 98 & 202 & 197 & 102 \\
+Game 3 & 123 & 180 & 238 & 134 \\
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0511}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2045}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1989}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1989}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3466}}@{}}
+\caption{A table too wide to fit within page.
+\label{tbl:constant-digits}}\label{tbl:constant-digits}\tabularnewline
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Digits 1-33
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Digits 34-66
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Digits 67-99
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ref.
+\end{minipage} \\
+\midrule()
+\endfirsthead
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Digits 1-33
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Digits 34-66
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Digits 67-99
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ref.
+\end{minipage} \\
+\midrule()
+\endhead
+pi & 3.14159265358979323846264338327950 & 288419716939937510582097494459230 & 781640628620899862803482534211706 & \href{https://www.piday.org/million/}{\texttt{piday.org}} \\
+e & 2.71828182845904523536028747135266 & 249775724709369995957496696762772 & 407663035354759457138217852516642 & \href{https://apod.nasa.gov/htmltest/gifcity/e.2mil}{\texttt{nasa.gov}} \\
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{A table with merged cells using the \texttt{attributes} plugin.
+}\label{tbl:}\tabularnewline
+\toprule()
+& \textbf{Colors} & \\
+\midrule()
+\endfirsthead
+\toprule()
+& \textbf{Colors} & \\
+\midrule()
+\endhead
+\textbf{Size} & \textbf{Text Color} & \textbf{Background Color} \\
+big & blue & orange \\
+small & black & white \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{equations}{%
+\subsection{Equations}\label{equations}}
+
+A LaTeX equation:
+
+\begin{equation}\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\label{eq:regular-equation}\end{equation}
+
+An equation too long to fit within page:
+
+\begin{equation}x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\label{eq:long-equation}\end{equation}
+
+\hypertarget{special}{%
+\subsection{Special}\label{special}}
+
+{WARNING} \emph{The following features are only supported and intended for \texttt{.html} and \texttt{.pdf} exports.}
+\emph{Journals are not likely to support them, and they may not display correctly when converted to other formats such as \texttt{.docx}.}
+
+\href{https://manubot.org}{Link styled as a button}
+
+Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
+
+\leavevmode\vadjust pre{\hypertarget{some_id_1}{}}%
+Manubot Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot.
+Manubot Manubot.
+Manubot.
+
+Adding arbitrary HTML attributes to an element with the Manubot \texttt{attributes} plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
+
+Manubot Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot.
+Manubot Manubot.
+Manubot.
+
+Available background colors for text, images, code, banners, etc:
+
+\texttt{white}
+\texttt{lightgrey}
+\texttt{grey}
+\texttt{darkgrey}
+\texttt{black}
+\texttt{lightred}
+\texttt{lightyellow}
+\texttt{lightgreen}
+\texttt{lightblue}
+\texttt{lightpurple}
+\texttt{red}
+\texttt{orange}
+\texttt{yellow}
+\texttt{green}
+\texttt{blue}
+\texttt{purple}
+
+Using the \href{https://fontawesome.com/}{Font Awesome} icon set:
+
+{ \textbf{Light Grey Banner}
+useful for \emph{general information} - \href{https://manubot.org/}{manubot.org}}
+
+{ \textbf{Blue Banner}
+useful for \emph{important information} - \href{https://manubot.org/}{manubot.org}}
+
+{ \textbf{Light Red Banner}
+useful for \emph{warnings} - \href{https://manubot.org/}{manubot.org}}
+
+\hypertarget{references}{%
+\subsection{References}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-IhliSZDo}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{\textbf{Sci-Hub provides access to nearly all scholarly literature}
+\CSLBlock{Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene} \emph{eLife} (2018-03-01) \url{https://doi.org/ckcj}
+\CSLBlock{DOI: \href{https://doi.org/10.7554/elife.32822}{10.7554/elife.32822} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/29424689}{29424689}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-mSMVRkoc}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{\textbf{Reproducibility of computational workflows is automated using continuous analysis}
+\CSLBlock{Brett K Beaulieu-Jones, Casey S Greene} \emph{Nature biotechnology} (2017-04) \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/}
+\CSLBlock{DOI: \href{https://doi.org/10.1038/nbt.3780}{10.1038/nbt.3780} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/28288103}{28288103} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790}{PMC6103790}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-126Wi5Us4}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{\textbf{Bitcoin for the biological literature.}
+\CSLBlock{Douglas Heaven} \emph{Nature} (2019-02) \url{https://www.ncbi.nlm.nih.gov/pubmed/30718888}
+\CSLBlock{DOI: \href{https://doi.org/10.1038/d41586-019-00447-9}{10.1038/d41586-019-00447-9} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/30718888}{30718888}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-QhC8yJ7V}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{\textbf{Plan S: Accelerating the transition to full and immediate Open Access to scientific publications}
+\CSLBlock{cOAlition S} (2018-09-04) \url{https://www.wikidata.org/wiki/Q56458321}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-zBPP9YKu}{}}%
+\CSLLeftMargin{5. }%
+\CSLRightInline{\textbf{Open access}
+\CSLBlock{Peter Suber} \emph{MIT Press} (2012)}
+
+\leavevmode\vadjust pre{\hypertarget{ref-1GGGHdsew}{}}%
+\CSLLeftMargin{6. }%
+\CSLRightInline{\textbf{Open collaborative writing with Manubot}
+\CSLBlock{Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter} \emph{Manubot} (2020-05-25) \url{https://greenelab.github.io/meta-review/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-PZMP42Ak}{}}%
+\CSLLeftMargin{7. }%
+\CSLRightInline{\textbf{Opportunities and obstacles for deep learning in biology and medicine}
+\CSLBlock{Travers Ching, Daniel S Himmelstein, Brett K Beaulieu-Jones, Alexandr A Kalinin, Brian T Do, Gregory P Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M Hoffman, \ldots{} Casey S Greene} \emph{Journal of The Royal Society Interface} (2018-04) \url{https://doi.org/gddkhn}
+\CSLBlock{DOI: \href{https://doi.org/10.1098/rsif.2017.0387}{10.1098/rsif.2017.0387} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/29618526}{29618526} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574}{PMC5938574}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-YuJbg3zO}{}}%
+\CSLLeftMargin{8. }%
+\CSLRightInline{\textbf{Open collaborative writing with Manubot}
+\CSLBlock{Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter} \emph{PLOS Computational Biology} (2019-06-24) \url{https://doi.org/c7np}
+\CSLBlock{DOI: \href{https://doi.org/10.1371/journal.pcbi.1007128}{10.1371/journal.pcbi.1007128} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/31233491}{31233491} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653}{PMC6611653}}}
+
+\end{CSLReferences}

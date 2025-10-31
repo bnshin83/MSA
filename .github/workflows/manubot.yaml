@@ -113,10 +113,16 @@ jobs:
           cp ../output/manuscript.tex .
           cp ../output/references.json . 2>/dev/null || true
 
-          # Copy images if they exist
+          # Copy images directory for LaTeX figures
           if [ -d ../content/images ]; then
+            rm -rf images
+            cp -r ../content/images images/
+          fi
+
+          # Also copy any images from output directory if they exist
+          if [ -d ../output/images ]; then
             mkdir -p images
-            cp -r ../content/images/* images/ 2>/dev/null || true
+            cp -r ../output/images/* images/ 2>/dev/null || true
           fi
 
           # Create a README for context

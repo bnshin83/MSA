@@ -61,5 +61,7 @@ content/02.delete-me.md:47:proident
 content/02.delete-me.md:47:qui
 content/02.delete-me.md:47:sint
 content/02.delete-me.md:47:sunt
-content/02.delete-me.md:237:Pandoc's
-content/02.delete-me.md:247:Pandoc's
+content/02.delete-me.md:241:Pandoc's
+content/02.delete-me.md:251:Pandoc's
+content/02.introduction.md:3:Feldman
+content/02.introduction.md:3:Zhang

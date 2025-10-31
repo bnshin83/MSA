@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2025-10-31" />
   <meta name="citation_publication_date" content="2025-10-31" />
   <meta property="article:published_time" content="2025-10-31" />
-  <meta name="dc.modified" content="2025-10-31T01:06:53+00:00" />
-  <meta property="article:modified_time" content="2025-10-31T01:06:53+00:00" />
+  <meta name="dc.modified" content="2025-10-31T01:42:32+00:00" />
+  <meta property="article:modified_time" content="2025-10-31T01:42:32+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://bnshin83.github.io/MSA/" />
   <meta name="citation_pdf_url" content="https://bnshin83.github.io/MSA/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://bnshin83.github.io/MSA/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://bnshin83.github.io/MSA/v/1b751b2860297e989bd1628e63d0d573d2ea62d9/" />
-  <meta name="manubot_html_url_versioned" content="https://bnshin83.github.io/MSA/v/1b751b2860297e989bd1628e63d0d573d2ea62d9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://bnshin83.github.io/MSA/v/1b751b2860297e989bd1628e63d0d573d2ea62d9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://bnshin83.github.io/MSA/v/9eb3e54129bdb6443e0ebc2bcb5ff70f671983b2/" />
+  <meta name="manubot_html_url_versioned" content="https://bnshin83.github.io/MSA/v/9eb3e54129bdb6443e0ebc2bcb5ff70f671983b2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://bnshin83.github.io/MSA/v/9eb3e54129bdb6443e0ebc2bcb5ff70f671983b2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://bnshin83.github.io/MSA/v/1b751b2860297e989bd1628e63d0d573d2ea62d9/))
+([permalink](https://bnshin83.github.io/MSA/v/9eb3e54129bdb6443e0ebc2bcb5ff70f671983b2/))
 was automatically generated
-from [bnshin83/MSA@1b751b2](https://github.com/bnshin83/MSA/tree/1b751b2860297e989bd1628e63d0d573d2ea62d9)
+from [bnshin83/MSA@9eb3e54](https://github.com/bnshin83/MSA/tree/9eb3e54129bdb6443e0ebc2bcb5ff70f671983b2)
 on October 31, 2025.
 </em></small>
 
@@ -357,11 +357,15 @@ Table: A table with merged cells using the `attributes` plugin.
 
 A LaTeX equation:
 
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
+$$
+\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}
+$$ {#eq:regular-equation}
 
 An equation too long to fit within page:
 
-$$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
+$$
+x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9
+$$ {#eq:long-equation}
 
 ## Special
 
@@ -431,7 +435,9 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 ]{.banner .lightred}
 
 
+## Introduction
 
+Feldman and Zhang [@arxiv:2008.03703] demonstrated...
 
 
 

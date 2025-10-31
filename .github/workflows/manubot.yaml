@@ -96,6 +96,58 @@ jobs:
         with:
           name: manuscript-${{ github.run_id }}-${{ env.TRIGGERING_SHA_7 }}
           path: output
+      - name: Sync LaTeX to separate repo for Overleaf
+        if: github.ref == env.DEFAULT_BRANCH_REF && github.event_name != 'pull_request' && !github.event.repository.fork
+        env:
+          LATEX_SYNC_TOKEN: ${{ secrets.LATEX_SYNC_TOKEN }}
+        run: |
+          # Clone the latex-only repository
+          git clone https://x-access-token:${LATEX_SYNC_TOKEN}@github.com/bnshin83/MSA-latex.git latex-repo
+          cd latex-repo
+
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Copy generated LaTeX and supporting files
+          cp ../output/manuscript.tex .
+          cp ../output/references.json . 2>/dev/null || true
+
+          # Copy images if they exist
+          if [ -d ../content/images ]; then
+            mkdir -p images
+            cp -r ../content/images/* images/ 2>/dev/null || true
+          fi
+
+          # Create a README for context
+          cat > README.md << 'EOF'
+          # MSA Manuscript - LaTeX Output
+
+          This repository contains the auto-generated LaTeX output from the main MSA repository.
+
+          **DO NOT EDIT FILES DIRECTLY IN THIS REPOSITORY**
+
+          - Source repository: https://github.com/bnshin83/MSA
+          - This repository is automatically updated when changes are pushed to the main repository
+          - Use this repository to sync with Overleaf
+
+          ## Files
+
+          - `manuscript.tex` - Main LaTeX manuscript file
+          - `images/` - Figures and images
+          - `references.json` - Citation metadata
+
+          Last updated: $(date -u)
+          EOF
+
+          # Commit and push changes
+          git add .
+          if ! git diff --quiet --cached; then
+            git commit -m "Auto-sync from MSA repo - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
       - name: Deploy Manuscript
         if: github.ref == env.DEFAULT_BRANCH_REF && github.event_name != 'pull_request' && !github.event.repository.fork
         env:

@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2025-10-31" />
   <meta name="citation_publication_date" content="2025-10-31" />
   <meta property="article:published_time" content="2025-10-31" />
-  <meta name="dc.modified" content="2025-10-31T12:31:11+00:00" />
-  <meta property="article:modified_time" content="2025-10-31T12:31:11+00:00" />
+  <meta name="dc.modified" content="2025-10-31T13:11:50+00:00" />
+  <meta property="article:modified_time" content="2025-10-31T13:11:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://bnshin83.github.io/MSA/" />
   <meta name="citation_pdf_url" content="https://bnshin83.github.io/MSA/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://bnshin83.github.io/MSA/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://bnshin83.github.io/MSA/v/bf0531ef9cd794a2f001501468fa4d7e45f38316/" />
-  <meta name="manubot_html_url_versioned" content="https://bnshin83.github.io/MSA/v/bf0531ef9cd794a2f001501468fa4d7e45f38316/" />
-  <meta name="manubot_pdf_url_versioned" content="https://bnshin83.github.io/MSA/v/bf0531ef9cd794a2f001501468fa4d7e45f38316/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://bnshin83.github.io/MSA/v/9aa3cf45fa6161ff1423a6c2875c39616db40d93/" />
+  <meta name="manubot_html_url_versioned" content="https://bnshin83.github.io/MSA/v/9aa3cf45fa6161ff1423a6c2875c39616db40d93/" />
+  <meta name="manubot_pdf_url_versioned" content="https://bnshin83.github.io/MSA/v/9aa3cf45fa6161ff1423a6c2875c39616db40d93/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://bnshin83.github.io/MSA/v/bf0531ef9cd794a2f001501468fa4d7e45f38316/))
+([permalink](https://bnshin83.github.io/MSA/v/9aa3cf45fa6161ff1423a6c2875c39616db40d93/))
 was automatically generated
-from [bnshin83/MSA@bf0531e](https://github.com/bnshin83/MSA/tree/bf0531ef9cd794a2f001501468fa4d7e45f38316)
+from [bnshin83/MSA@9aa3cf4](https://github.com/bnshin83/MSA/tree/9aa3cf45fa6161ff1423a6c2875c39616db40d93)
 on October 31, 2025.
 </em></small>
 
@@ -132,6 +132,7 @@ Tracy: mathemetical foundation in memoriziation
 History of memorization
 State of Art:
 Theory
+
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.

@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/bnshin83/MSA/tree/gh-pages) branch hosts the contents of this directory at <https://bnshin83.github.io/MSA/>.
-The permalink for this webpage version is <https://bnshin83.github.io/MSA/v/24cf3587b72e9643bcbd11ad4920de5873b48b36/>.
+The permalink for this webpage version is <https://bnshin83.github.io/MSA/v/1b751b2860297e989bd1628e63d0d573d2ea62d9/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://bnshin83.github.io/MSA/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`24cf3587b72e9643bcbd11ad4920de5873b48b36`](https://github.com/bnshin83/MSA/commit/24cf3587b72e9643bcbd11ad4920de5873b48b36).
+[`1b751b2860297e989bd1628e63d0d573d2ea62d9`](https://github.com/bnshin83/MSA/commit/1b751b2860297e989bd1628e63d0d573d2ea62d9).

@@ -2,3 +2,5 @@
 # Load on top of common defaults.
 to: latex
 output-file: output/manuscript.tex
+standalone: true
+pdf-engine: xelatex
